@@ -3,7 +3,7 @@ const router = express.Router();
 const bcrypt = require('bcryptjs');
 
 //USer Model
-const User = require('../../models/User');
+const User = require('../../models/user.js');
 
 //@route GET api/users
 //@desc  Register new user
